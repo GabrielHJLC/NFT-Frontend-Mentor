@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root{
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --Very-dark-blue: hsl(217, 54%, 11%);
+    --Very-dark-blue-card: hsl(216, 50%, 16%);
+    --Very-dark-blue-line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Outfit", sans-serif;
+    background-color: var(--Very-dark-blue);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+main{
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.card{
+    background-color: var(--Very-dark-blue-card);
+    padding: 17px;
+    border-radius: 17px;
+    margin: 0 1rem;
+}
+
+.image img{
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: .9rem;
+}
+
+.text h2{
+    color: var(--White);
+    font-size: 1.2rem;
+    margin-bottom: .9rem;
+}
+
+.text .description{
+    color:  hsl(0, 6%, 73%);
+    margin-bottom: .9rem;
+    font-size: 1.1rem;
+}
+
+.info_text{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .9rem;
+}
+
+.info_text .info{
+    color: var(--Cyan);
+}
+
+.info_text .time{
+    color: var(--Very-dark-blue-line);
+}
+
+.lastimage {
+    width: 12%;
+}
+
+.footer{
+    display: flex;
+    margin-top: .9rem;
+    margin-bottom: .6rem;
+}
+
+.footer .name{
+    color: hsl(0, 6%, 73%);
+}
+
+.lastdiv{
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.span3{
+    color: var(--White);   
+}
